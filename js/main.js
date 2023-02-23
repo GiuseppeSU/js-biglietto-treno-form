@@ -44,7 +44,27 @@ geButton.addEventListener('click',
         document.getElementById("code").innerHTML =  numeroCp  ;
 
     }
+
+
 );
+
+const pulsanteReset = document.querySelector('#resettaForm');
+
+
+pulsanteReset.addEventListener ('click',
+    function () {
+        document.getElementById("promo").value="";
+        document.getElementById("km").value="";
+        document.getElementById("utente").value="";
+
+        document.getElementById("totale").innerHTML =  "";
+        document.getElementById("nome_utente").innerHTML=  "";
+        document.getElementById("offerta").innerHTML =  "";
+        document.getElementById("carrozza").innerHTML=  ""  ;
+        document.getElementById("code").innerHTML =  ""  ;
+
+})
+
 
 
 
