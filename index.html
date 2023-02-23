@@ -11,39 +11,42 @@
 
 <body>
 
-    <form>
-        <div class="container-form">
-            <div class="nome">
-                <label for="messaggio">
-                    <h3>Nome e Cognome:</h3>
-                </label>
-                <input type="text" id="utente" />
-            </div>
+    <div class="container-form">
+        <form>
+            <div class="d-flex">
+                <div class="nome">
+                    <label for="messaggio">
 
-            <div class="chilometri">
+                        <h3>Nome e Cognome:</h3>
+                    </label>
+                    <input type="text" id="utente" />
+                </div>
 
-                <label for="messaggio">
-                    <h3>Km da percorrere:</h3>
-                </label>
-                <input type="text" id="km" />
-            </div>
-            <div class="età">
-                <label for="casellaSelezione">
-                    <h3>Fascia di età:</h3>
-                </label>
-                <select id="promo">
-                    <option value="66">Offerta gold</option>
-                    <option value="17">Offerta junior</option>
-                    <option value="Standard">Standard</option>
-                </select>
+                <div class="chilometri">
 
+                    <label for="messaggio">
+                        <h3>Km da percorrere:</h3>
+                    </label>
+                    <input type="text" id="km" />
+                </div>
+                <div class="età">
+                    <label for="casellaSelezione">
+                        <h3>Fascia di età:</h3>
+                    </label>
+                    <select id="promo">
+                        <option value="66">Offerta gold</option>
+                        <option value="17">Offerta junior</option>
+                        <option value="Standard">Standard</option>
+                    </select>
+                </div>
             </div>
-        </div>
-        <div class="button">
+        </form>
+        <div class="buttons">
             <button id="informazioni">Genera</button>
             <button id="resettaForm">Annulla</button>
+
         </div>
-    </form>
+    </div>
 
 
 
@@ -52,30 +55,36 @@
 
 
 
-    <h1 id="totale"></h1>
+
+
+
     <h1 class="biglietto">Il tuo biglietto</h1>
     <div class="container">
         <div class="user">
             <h1>Nome passaggero</h1>
-            <h2 id="nome_utente"></h2>
+            <h1 id="nome_utente"></h1>
         </div>
-        <div class="offerta">
+        <div class="">
             <h1>Offerta</h1>
+            <h1 id="offerta"></h1>
 
         </div>
 
-        <div class="Carrozza">
+        <div class="">
             <h1>Carrozza</h1>
+            <h1 id="carrozza"></h1>
 
         </div>
 
-        <div class="Code">
+        <div class="">
             <h1>Codice CP</h1>
+            <h1 id="code"></h1>
 
         </div>
 
         <div class="price">
             <h1>Prezzo</h1>
+            <h1 id="totale"></h1>
 
         </div>
 

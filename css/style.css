@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-.container-form{
-    border: 1px solid red;
+.d-flex{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.container-form{
+    border: 1px solid red;
     height: 200px;
     
 }
-.button{
+.buttons{
     text-align: center;
+    
 }
 
 .biglietto{
