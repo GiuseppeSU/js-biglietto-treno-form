@@ -4,10 +4,13 @@ const geButton = document.querySelector('#informazioni');
 
  geButton.addEventListener('click', 
     function () {
-        let km ;
-        let anni;
-        let prezzo = 0.21
+        
+        
+        const prezzo = 0.21;
         let somma = km * prezzo
+        const messaggioDom = document.getElementById('km');
+        somma= messaggioDom.value;
+        
         
 
         if(anni < 18 ){
