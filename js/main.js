@@ -12,31 +12,34 @@ geButton.addEventListener('click',
         let numeroCasuale = Math.floor(Math.random()*10) +1;
         const numeroCp = Math.floor((Math.random() * 90001)) + 10000;
 
-       
+       let nomeOfferta="standard"
 
         if (anni < 18) {
             let sconto = somma * 20 / 100
             somma = somma - sconto
             somma = somma.toFixed(2);
+            nomeOfferta="Offerta junior"
 
 
 
-
+            
         } else if (anni >= 66) {
             let sconto = somma * 40 / 100
             somma = somma - sconto
             somma = somma.toFixed(2);
+            nomeOfferta="Offerta Gold"
 
 
 
         } else {
 
             somma = somma.toFixed(2);
+            
         }
 
         document.getElementById("totale").innerHTML =  somma + "€";
         document.getElementById("nome_utente").innerHTML = utente;
-        document.getElementById("offerta").innerHTML =  anni;
+        document.getElementById("offerta").innerHTML =  nomeOfferta;
         document.getElementById("carrozza").innerHTML =  numeroCasuale  ;
         document.getElementById("code").innerHTML =  numeroCp  ;
 

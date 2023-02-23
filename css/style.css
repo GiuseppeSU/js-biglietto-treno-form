@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(185, 20, 80);
+}
+#calc{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
 .d-flex{
     display: flex;
     justify-content: space-around;
@@ -12,10 +21,16 @@
 }
 
 .container-form{
-    border: 1px solid red;
+    border: 1px solid black;
     height: 200px;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+
     
 }
+
 .buttons{
     text-align: center;
     
@@ -24,10 +39,56 @@
 .biglietto{
     text-align: center;
     margin: 20px 0px;
+    color: white;
 }
 
 .container{
     display: flex;
     justify-content: space-around;
+    border: 1px solid black;
+    height: 200px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
 }
+#ticket{
+    
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+   
+
+}
+
+.user:hover:hover{
+    background-color: grey;
+}
+
+.sale:hover{
+    background-color: grey;
+
+}
+
+
+.vagone:hover{
+    background-color: grey;
+
+}
+
+
+
+.numero:hover{
+    background-color: grey;
+
+}
+
+
+
+.price:hover{
+    background-color: grey;
+
+}
+
+
 
