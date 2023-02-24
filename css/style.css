@@ -42,7 +42,12 @@ body{
     color: white;
 }
 
+.mystyle{
+    display: none;
+}
+
 .container{
+    
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
@@ -52,6 +57,7 @@ body{
     margin: auto;
     border-radius: 20px;
 }
+
 #ticket{
     
     width: 80%;

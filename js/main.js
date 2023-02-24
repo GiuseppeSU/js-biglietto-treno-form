@@ -4,6 +4,8 @@ const geButton = document.querySelector('#informazioni');
 
 geButton.addEventListener('click',
     function () {
+        let element = document.getElementById("myDIV");
+        element.classList.remove("mystyle");
         let utente = document.getElementById("utente").value;
         let km = document.getElementById("km").value;
         let anni = parseInt(document.getElementById("promo").value)
@@ -53,7 +55,7 @@ const pulsanteReset = document.querySelector('#resettaForm');
 
 pulsanteReset.addEventListener ('click',
     function () {
-        document.getElementById("promo").value="";
+        document.getElementById("promo").value="Offerta Gold";
         document.getElementById("km").value="";
         document.getElementById("utente").value="";
 
